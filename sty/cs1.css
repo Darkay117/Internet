@@ -1,0 +1,57 @@
+* {
+	font-family:tahoma;
+}
+
+header {
+	text-align:center;
+}
+
+header nav ul li a {
+	list-style:none;
+	text-decoration:none;
+	padding:0.5em;
+	background:rgb(0, 0, 0);
+	color:#fff;
+
+}
+
+header nav ul li a:hover {
+	color:#75acec;
+}
+
+header nav ul {
+	float:left;
+	display:block;
+	margin:1em;
+}
+
+header nav ul li {
+		display:inline-block;
+			text-align:center;
+
+}
+
+header nav {
+  margin-left: 17.5em	
+}
+
+
+div {
+	position:relative;
+	top:5.5em;
+	left: 3em;
+	padding: .5em;
+	border:3px solid red;
+	width: 60em;
+  
+}
+
+#inter {
+	position:relative;
+	top:2.5em;
+}
+
+div p {
+	padding:0.5em;
+}
+
