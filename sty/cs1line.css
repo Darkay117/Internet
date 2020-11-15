@@ -1,0 +1,41 @@
+* {
+	font-family:tahoma;
+}
+
+header {
+    text-align:center;
+    overflow:hidden;
+}
+
+header nav ul li a {
+	list-style:none;
+	text-decoration:none;
+	padding:0.5em;
+	background:rgb(0, 0, 0);
+	color:#fff;
+
+}
+
+header nav ul li a:hover {
+	color:#75acec;
+}
+
+header nav ul {
+	float:left;
+	display:block;
+	margin:1em;
+}
+
+header nav ul li {
+		display:inline-block;
+			text-align:center;
+
+}
+
+header nav {
+  margin-left: 17.5em	
+}
+
+.bolding {
+    font-weight: bold;
+}
