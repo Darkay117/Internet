@@ -39,3 +39,41 @@ header nav {
 .bolding {
     font-weight: bold;
 }
+
+div {
+	position:relative;
+	top:5.5em;
+	left: 3em;
+	padding: .5em;
+	border:3px solid red;
+	width: 60em;
+  
+}
+
+#inter {
+    text-align: center;
+    font-weight: 500;
+}
+
+#l1 {
+    text-align: center;
+    
+}
+
+img {
+   display:block;
+   margin:auto;
+	width: 750px;
+	height: 450px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color: rgba(28, 252, 8, 0.938);
+}
+a {
+    transition: color 0.8s linear 0.2s;
+}
