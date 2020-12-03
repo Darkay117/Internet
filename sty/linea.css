@@ -28,7 +28,7 @@ header nav ul {
 
 header nav ul li {
 		display:inline-block;
-			text-align:center;
+		text-align:center;
 
 }
 
@@ -75,5 +75,10 @@ a:hover {
     color: rgba(28, 252, 8, 0.938);
 }
 a {
-    transition: color 0.8s linear 0.2s;
+    transition: color 0.1s linear 0.2s;
+}
+
+#l1 {
+	font-weight: 500;
+	transition: margin-left 4s;
 }

@@ -10,5 +10,5 @@ let edad = prompt("Escribe tu edad");
 if (edad >= 18){
     document.write("¡Bienvenido de nuevo!")
 } else if(edad < 18) {
-    document.write("No eres bienvenido, vuevle cuando tengas edad")
+    document.write("No eres bienvenido, vuelve cuando tengas edad")
 }

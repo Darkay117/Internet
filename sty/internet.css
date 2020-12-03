@@ -4,6 +4,7 @@
 
 header {
 	text-align:center;
+	overflow: hidden;
 }
 
 header nav ul li a {
@@ -21,13 +22,12 @@ header nav ul li a:hover {
 
 header nav ul {
 	float:left;
-	display:block;
 	margin:1em;
 }
 
 header nav ul li {
 		display:inline-block;
-			text-align:center;
+		text-align:center;
 
 }
 
@@ -47,12 +47,14 @@ div {
 }
 
 #inter {
-	position:relative;
-	top:2.5em;
-	right: 9em
+	text-align: center;
+	font-weight: 500;
 }
 
 div p {
 	padding:0.5em;
 }
 
+a {
+    transition: color 0.1s linear 0.2s;
+}
